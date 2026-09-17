@@ -50,5 +50,10 @@
         {
             IsActive = false;
         }
+
+        public bool IsClientActive()
+        {
+            return IsActive;
+        }                       
     }       
 }
